@@ -74,11 +74,12 @@ The solution is built upon a microservices architecture managed by Docker Compos
 <hr>
 
 ## 6.	How to Run
-1. Ensure Docker Desktop is running.
-2. Navigate to the project root directory.
-3. Execute the following command to start the environment: **`docker-compose up –d`**.
-4. Access the Airflow UI at **`http://localhost:8080`**.
-5. Login with credentials (default: **`admin/admin)`**..
-6. Toggle the **`news_etl_pipeline_v1`** DAG to **ON** and trigger it manually to verify execution.
-7. Output data can be verified in **`data/news_articles.db`**.
+1. Create Folder **data/** and **logs**
+2. Ensure Docker Desktop is running.
+3. Navigate to the project root directory.
+4. Execute the following command to start the environment: **`docker-compose up –d`**.
+5. Access the Airflow UI at **`http://localhost:8080`**.
+6. Login with credentials (default: **`admin/admin)`**..
+7. Toggle the **`news_etl_pipeline_v1`** DAG to **ON** and trigger it manually to verify execution.
+8. Output data can be verified in **`data/news_articles.db`**.
 <hr>
